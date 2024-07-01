@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7efc6ef-de6e-4d77-b45f-65b2e81f6ace" name="Changes" comment="Creating an end-point to send the produced messages">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="a7efc6ef-de6e-4d77-b45f-65b2e81f6ace" name="Changes" comment="Configuring StockService Consumer application.properties">
+      <change afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/src/main/java/net/javaguides/springkafkaedastockservice/kafka/OrderConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.SpringKafkaEdaStockServiceApplication">
+  <component name="RunManager" selected="Spring Boot.SpringKafkaEdaApplication">
     <configuration name="SpringKafkaEdaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Spring-Kafka-EDA-OrderService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.springkafkaeda.SpringKafkaEdaApplication" />
@@ -95,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719846330636</updated>
-      <workItem from="1719846335812" duration="3256000" />
+      <workItem from="1719846335812" duration="3779000" />
     </task>
     <task id="LOCAL-00001" summary="Improving module name">
       <option name="closed" value="true" />
@@ -169,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719849113060</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Configuring StockService Consumer application.properties">
+      <option name="closed" value="true" />
+      <created>1719849656088</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719849656088</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +194,7 @@
     <MESSAGE value="Adding Base Domain dependency to OrderService pom" />
     <MESSAGE value="Creating OrderEventDTO Producer" />
     <MESSAGE value="Creating an end-point to send the produced messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating an end-point to send the produced messages" />
+    <MESSAGE value="Configuring StockService Consumer application.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuring StockService Consumer application.properties" />
   </component>
 </project>
