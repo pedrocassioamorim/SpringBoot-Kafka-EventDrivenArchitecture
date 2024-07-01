@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7efc6ef-de6e-4d77-b45f-65b2e81f6ace" name="Changes" comment="Creating DTOs to Base Domain: OrderDTO and OrderEventDTO">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Kafka-EDA-BaseDomain/src/main/java/net/javaguides/springkafkaedabasedomain/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-BaseDomain/src/main/java/net/javaguides/springkafkaedabasedomain/dto/OrderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Kafka-EDA-EmailService/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-EmailService/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Kafka-EDA-OrderService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-OrderService/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="a7efc6ef-de6e-4d77-b45f-65b2e81f6ace" name="Changes" comment="Configuring OrderService">
+      <change afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-OrderService/src/main/java/net/javaguides/springkafkaeda/config/KafkaTopicConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +38,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.SpringKafkaEdaApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/pedro/IdeaProjects/Spring-Kafka-EDA-Integration/Spring-Kafka-EDA-OrderService",
@@ -94,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719846330636</updated>
-      <workItem from="1719846335812" duration="1121000" />
+      <workItem from="1719846335812" duration="1528000" />
     </task>
     <task id="LOCAL-00001" summary="Improving module name">
       <option name="closed" value="true" />
@@ -120,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719846835063</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Improving OrderDTO">
+      <option name="closed" value="true" />
+      <created>1719847575957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719847575957</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Configuring OrderService">
+      <option name="closed" value="true" />
+      <created>1719847613841</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719847613841</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +142,8 @@
     <MESSAGE value="Improving module name" />
     <MESSAGE value="Improving workspace" />
     <MESSAGE value="Creating DTOs to Base Domain: OrderDTO and OrderEventDTO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating DTOs to Base Domain: OrderDTO and OrderEventDTO" />
+    <MESSAGE value="Improving OrderDTO" />
+    <MESSAGE value="Configuring OrderService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuring OrderService" />
   </component>
 </project>
