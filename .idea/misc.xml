@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/Spring-Kafka-EDA-BaseDomain/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Kafka-EDA-EmailService/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Kafka-EDA-OrderService/pom.xml" />
       </list>
     </option>
   </component>

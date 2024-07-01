@@ -2,11 +2,15 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-Kafka-EDA-EmailService" />
+        <module name="Spring-Kafka-EDA-OrderService" />
         <module name="Spring-Kafka-EDA-StockService" />
+        <module name="Spring-Kafka-EDA-BaseDomain" />
       </profile>
     </annotationProcessing>
   </component>
@@ -14,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-Kafka-EDA-BaseDomain" options="-parameters" />
       <module name="Spring-Kafka-EDA-EmailService" options="-parameters" />
+      <module name="Spring-Kafka-EDA-OrderService" options="-parameters" />
       <module name="Spring-Kafka-EDA-StockService" options="-parameters" />
     </option>
   </component>
