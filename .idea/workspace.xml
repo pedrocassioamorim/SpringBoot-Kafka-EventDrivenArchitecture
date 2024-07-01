@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7efc6ef-de6e-4d77-b45f-65b2e81f6ace" name="Changes" comment="Configuring OrderService">
-      <change afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-OrderService/src/main/java/net/javaguides/springkafkaeda/config/KafkaTopicConfig.java" afterDir="false" />
+    <list default="true" id="a7efc6ef-de6e-4d77-b45f-65b2e81f6ace" name="Changes" comment="Adding Base Domain dependency to OrderService pom">
+      <change afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-OrderService/src/main/java/net/javaguides/springkafkaeda/kafka/OrderProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Kafka-EDA-OrderService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-OrderService/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719846330636</updated>
-      <workItem from="1719846335812" duration="1528000" />
+      <workItem from="1719846335812" duration="2098000" />
     </task>
     <task id="LOCAL-00001" summary="Improving module name">
       <option name="closed" value="true" />
@@ -131,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719847613841</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating Kafka Topic for Order-topic">
+      <option name="closed" value="true" />
+      <created>1719847895613</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719847895613</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding Base Domain dependency to OrderService pom">
+      <option name="closed" value="true" />
+      <created>1719848434778</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719848434778</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +161,8 @@
     <MESSAGE value="Creating DTOs to Base Domain: OrderDTO and OrderEventDTO" />
     <MESSAGE value="Improving OrderDTO" />
     <MESSAGE value="Configuring OrderService" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuring OrderService" />
+    <MESSAGE value="Creating Kafka Topic for Order-topic" />
+    <MESSAGE value="Adding Base Domain dependency to OrderService pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Base Domain dependency to OrderService pom" />
   </component>
 </project>
