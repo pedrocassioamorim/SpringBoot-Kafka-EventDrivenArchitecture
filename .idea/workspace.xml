@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="PropertiesComponent">{}</component>
+  <component name="RunManager">
+    <configuration name="SpringKafkaEdaStockServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-Kafka-EDA-StockService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.springkafkaedastockservice.SpringKafkaEdaStockServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
 </project>
