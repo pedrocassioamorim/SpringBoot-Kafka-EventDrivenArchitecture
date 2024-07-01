@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7efc6ef-de6e-4d77-b45f-65b2e81f6ace" name="Changes" comment="Configuring StockService Consumer application.properties">
-      <change afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/src/main/java/net/javaguides/springkafkaedastockservice/kafka/OrderConsumer.java" afterDir="false" />
+    <list default="true" id="a7efc6ef-de6e-4d77-b45f-65b2e81f6ace" name="Changes" comment="Configuring StockService Consumer">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-BaseDomain/src/main/java/net/javaguides/springkafkaedabasedomain/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/src/main/java/net/javaguides/springkafkaedastockservice/repositories/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Kafka-EDA-BaseDomain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-BaseDomain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Kafka-EDA-OrderService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-OrderService/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-Kafka-EDA-StockService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +22,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
@@ -43,6 +53,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.SpringKafkaEdaApplication.executor": "Run",
     "Spring Boot.SpringKafkaEdaStockServiceApplication.executor": "Run",
     "git-widget-placeholder": "main",
@@ -55,6 +66,11 @@
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.SpringKafkaEdaApplication">
@@ -95,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719846330636</updated>
-      <workItem from="1719846335812" duration="3779000" />
+      <workItem from="1719846335812" duration="4750000" />
     </task>
     <task id="LOCAL-00001" summary="Improving module name">
       <option name="closed" value="true" />
@@ -177,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719849656088</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Configuring StockService Consumer">
+      <option name="closed" value="true" />
+      <created>1719850426851</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719850426851</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +219,7 @@
     <MESSAGE value="Creating OrderEventDTO Producer" />
     <MESSAGE value="Creating an end-point to send the produced messages" />
     <MESSAGE value="Configuring StockService Consumer application.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuring StockService Consumer application.properties" />
+    <MESSAGE value="Configuring StockService Consumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuring StockService Consumer" />
   </component>
 </project>
